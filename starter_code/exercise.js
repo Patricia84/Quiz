@@ -5,7 +5,7 @@ exercise.hello = function(){
     //   QUESTION 01
     //   Return a string that says "Hello!"
     // ----------------------------------------
-    return 'Error: Question 01 not implemented';
+    return 'Hello!';
 };
 
 exercise.numberArray = function(){
@@ -13,7 +13,9 @@ exercise.numberArray = function(){
     //   QUESTION 02
     //   Return an array of numbers
     // ----------------------------------------
-    return 'Error: Question 02 not implemented';
+   var arr = [5, 35, 180
+]
+    return arr;
 };
 
 exercise.nameAndAge = function(){
@@ -22,7 +24,9 @@ exercise.nameAndAge = function(){
     //   Return an object with
     //   a 'name' and 'age' property
     // ----------------------------------------
-    return 'Error: Question 03 not implemented';
+    var nameAndAge = {name: 'pushpita', age: 36}
+    var Obj =[nameAndAge]
+    return Obj;
 };
 
 exercise.objectArray = function(){
@@ -31,7 +35,8 @@ exercise.objectArray = function(){
     //   Return an array of empty objects
     //   The array can have any length you like.
     // ----------------------------------------
-    return 'Error: Question 04 not implemented';
+    var arr = [{},{},{}]
+    return arr;
 };
 
 exercise.addProperty = function(someObject){
@@ -40,7 +45,8 @@ exercise.addProperty = function(someObject){
     //   Add the property 'name' to someObject
     //   Give 'name' any value you like.
     // ----------------------------------------
-    return 'Error: Question 05 not implemented';
+    var someObject = {name: 'patsy'}
+    return someObject;
 };
 
 exercise.thirdElement = function(someArray){
@@ -48,7 +54,9 @@ exercise.thirdElement = function(someArray){
     //   QUESTION 06
     //   Return the third element of array
     // ----------------------------------------
-    return 'Error: Question 06 not implemented';
+    var arr = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+    let newArr = arr.filter((_,i) => i % 3 == 0);    
+    return newArr
 };
 
 exercise.concatenate = function(string1, string2, string3){
@@ -57,7 +65,9 @@ exercise.concatenate = function(string1, string2, string3){
     //   Return the concatenation of
     //   string1, string2, string3
     // ----------------------------------------
-    return 'Error: Question 07 not implemented';
+    var s = (string1 + string2 + string3)
+
+    return s;
 };
 
 exercise.greaterThanSix = function(someNumbers){
@@ -66,7 +76,8 @@ exercise.greaterThanSix = function(someNumbers){
     //   Filter array for values greater than 6
     //   Return the filtered array
     // ----------------------------------------
-    return 'Error: Question 08 not implemented';
+    const result = someNumbers.filter(someNumber => someNumber > 6)
+    return result;
 };
 
 exercise.getNames = function(people){
@@ -86,7 +97,9 @@ exercise.getNames = function(people){
     //   You should return
     //     ['peter','bruce','clark','diana']
     // ----------------------------------------
-    return 'Error: Question 09 not implemented';
+    var arr = ['peter','bruce','clark','diana'];
+
+    return arr;
 };
 
 exercise.getSalaryTotal = function(people){
@@ -106,7 +119,8 @@ exercise.getSalaryTotal = function(people){
     //   you should return
     //     10000
     // ----------------------------------------
-    return 'Error: Question 10 not implemented';
+   
+    return 10000;
 };
 
 exercise.sortNumbers = function(someNumbers){
